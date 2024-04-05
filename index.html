@@ -23,14 +23,17 @@
             jumlahKaki;
             warna;
 
+            constructor(jmlhKaki, wrna) {
+                this.jumlahKaki = jmlhKaki;
+                this.warna = wrna;
+            }
+
             tampilkanDeksripsi() {
                 console.log('Binatang ini memiliki ' + this.jumlahKaki + ' kaki dan berwarna ' + this.warna);
             }
         }
 
-        var kucing = new Binatang();
-        kucing.jumlahKaki = 4;
-        kucing.warna = 'oren';
+        var kucing = new Binatang(10, 'oren');
 
         kucing.tampilkanDeksripsi();
     </script>
