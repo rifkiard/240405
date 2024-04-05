@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+
+    <style>
+        /* h1 {
+            color: red;
+        } */
+    </style>
+</head>
+
+<body>
+    <h1>Hai apa kabar</h1>
+
+
+    <script>
+        class Binatang {
+            // property
+            jumlahKaki;
+            warna;
+
+            tampilkanDeksripsi() {
+                console.log('Binatang ini memiliki ' + this.jumlahKaki + ' kaki dan berwarna ' + this.warna);
+            }
+        }
+
+        var kucing = new Binatang();
+        kucing.jumlahKaki = 4;
+        kucing.warna = 'oren';
+
+        kucing.tampilkanDeksripsi();
+    </script>
+</body>
+
+</html>
